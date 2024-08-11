@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rajdhani", sans-serif; 
+}
+#container
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(./bgplanee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 100px;
+    background-color: darkslategray;
+}
+.logo{
+    /* margin-top: 30px; */
+
+    width: 80px;
+}
+.listitems{
+    width: 100%;
+    list-style: none;
+    display: inline;
+    margin: 0px 20px 0px 0px;
+
+}
+.links{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(33, 7, 7);
+}
+.links:hover
+{
+    text-decoration: underline;
+color: rgb(226, 215, 215);
+}
+.button{
+    border-radius: 20px;
+    margin: 20px;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: rgb(145, 137, 137);
+}
+.homepage{
+    /* margin-top: 100px;
+    margin: 20px; */
+    display: flex;
+    margin: 4% 4% 4% 4%;
+}
+#p1
+{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+#h1
+{
+    font-family: "Edu VIC WA NT Beginner", cursive;  
+    color: rgb(235, 228, 222);
+    margin-bottom: 30px;
+}
+#p2
+{
+    color: rgb(97, 76, 76);
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+.butt
+{
+    text-decoration: none;
+    background-color:black;
+    color:aliceblue;
+    padding: 0 15px;
+}
+.butt1{
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+
+.introimg{
+    width: 450px;
+    height: 300px;
+    margin-left: 400px;
+}
+#services
+{
+    margin: 4% 4% 4% 4%;
+}
+.servs{
+    text-align: center;
+}
+.h11
+{
+    font-family: "Gupter", serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 200px;
+}
+.items
+{
+    display: flex;
+    justify-content: center;
+}
+.itemset{
+
+    margin: 30px;
+    margin-bottom: 140px;
+}
+.off{
+    width: 50px;
+    height: 50px;
+
+}
+.itemset h3{
+    font-size: 30px;
+}
+.itemset p{
+    font-family: "Grey Qo", cursive;
+    font-size: 25px;
+    font-weight: 600;
+}
+.itemset p{
+    margin-top: 20px;
+}
+.destination
+{
+    text-align: center;
+    margin: 4% 4% 4% 4% ;
+}
+.dest h1
+
+{
+        margin-bottom: 10px;
+        font-weight: 200px;
+        font-family: "Bebas Neue", sans-serif;
+}
+.destimag
+{
+    margin: 2%;
+}
+
+.imgs{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+.head{
+    text-align: center;
+   
+}
+.head h1{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.ic1{
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+
+}
+.bookings
+{
+    margin-bottom: 150px;
+}
+.br{
+    text-decoration: none;
+    color: black;
+}
+  
+.brand{
+    color: black;
+    font-size: 2rem;
+}
+.vdo
+{
+    margin: 6%;
+    text-align: center;
+}
+.rev{
+    height: 200px;
+    /* background-color: bisque; */
+    text-align: center;
+}
+.revhead{
+    font-family: "Gupter", serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.review
+{
+    margin: 30px;
+
+}
+.buttrate{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0 20px;
+}
+.buttonrate
+{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+}
+/* .social{
+    background-color: burlywood;
+} */
+.mainhead{
+    margin-top: 30px;
+    text-align: center;
+}
+.iconcollection{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,rgb(7, 146, 156),rgb(14, 0, 82),rgb(186, 186, 150));
+}
+.icon:hover .brands{
+    color: aliceblue;
+    /* animation */
+    animation: rotate 3s;
+
+}
+.head1{
+    text-align: center;
+    margin-top: 30px;
+   
+}
+#head{
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+}
+.tvdo{
+    margin: 20px;
+}
+.destimag{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.destimag img{
+    width: 10%;
+    height: 80%;
+    object-fit: cover;
+    border-radius:10px ;
+    border: 2px solid rgb(red, green, blue);
+    transition: all ease-in-out 0.5s;
+    
+}
+.destimag img:hover{
+    width: 25%;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(40deg);
+    }
+    20%{
+        transform: rotate(-40deg);
+    }
+
+    40%{
+        transform: rotate(40deg);
+    }
+    60%{
+        transform: rotate(-40deg);
+    }
+    80%{
+        transform: rotate(40deg);
+    }
+    100%{
+        transform: rotate(-40deg);
+    }
+
+}
+footer{
+    margin-top: 3%;
+    height: 40px;
+}
+#copyright{
+    text-align: center;
+    font-weight: 600;
+    
+}
